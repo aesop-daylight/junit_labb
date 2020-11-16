@@ -7,7 +7,6 @@ import java.util.Random;
 class CalculatorTest {
 
     //Testet startas. Denna är disabled för sakens skull.
-    @Disabled
     @DisplayName ("Test startar...")
     @BeforeAll
     static void start() {
@@ -105,8 +104,10 @@ class CalculatorTest {
         // System.out.println("1 / 1 = " + calculator.divide(0, 0));
     }
 
-    //Testar bråk funktionen en gång med hårdkodade intar.
-
+    //Testar bråk funktionen en gång med hårdkodade int.
+    //Disabled för uppgiftens skull
+    
+    @Disabled
     @Test
     @DisplayName("Bråkfunktionen")
     void divide() {
