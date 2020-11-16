@@ -11,6 +11,15 @@ public class Calculator {
         return a - b;
     }
     public int divide(int a, int b) {
+        if (a == 0) {
+            a = 1;
+            System.out.println("Warning! Cannot divide by 0. First number increased to 1");
+        }
+
+        if (b == 0) {
+            b = 1;
+            System.out.println("Warning! Cannot divide by 0. Second number increased to 1");
+        }
         return a / b;
     }
     public int multiply(int a, int b) {
@@ -18,6 +27,7 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
+
 
             System.out.println("\n" + "CalcuMaster 3000" + "\n*****************");
 
