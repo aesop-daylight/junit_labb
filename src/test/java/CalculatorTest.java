@@ -6,8 +6,9 @@ import java.util.Random;
 
 class CalculatorTest {
 
-    //Testet startas.
-
+    //Testet startas. Denna är disabled för sakens skull.
+    @Disabled
+    @DisplayName ("Test startar...")
     @BeforeAll
     static void start() {
         System.out.println("Testet startas...");
