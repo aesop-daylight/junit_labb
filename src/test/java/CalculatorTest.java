@@ -6,7 +6,6 @@ import java.util.Random;
 
 class CalculatorTest {
 
-    //Testet startas. Denna är disabled för sakens skull.
     @DisplayName ("Test startar...")
     @BeforeAll
     static void start() {
